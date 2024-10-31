@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Spinner, Alert } from "react-bootstrap"; // Added Spinner and Alert for better loading/error handling
-import Header from "../components/Navbar";
 import PostCard from "../components/PostCard";
-import Footer from "../components/Footer"; // Make sure the casing matches your component file
 import { fetchPosts, fetchSearchPost } from "../utils/axiosHelper";
 import { useLocation } from "react-router-dom";
 

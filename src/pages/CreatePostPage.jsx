@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Container, Form, Button, Row, Col } from "react-bootstrap";
-import Header from "../components/Navbar";
-import Footer from "../components/footer";
 import { createPost, fetchPost, updatePost } from "../utils/axiosHelper";
 import { useLocation, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";

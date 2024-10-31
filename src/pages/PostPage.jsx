@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Header from "../components/Navbar";
-import Footer from "../components/Footer";
 import { Col, Container, Row, Image } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
 import { fetchPost } from "../utils/axiosHelper";
